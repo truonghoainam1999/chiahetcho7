@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tổng 30 số tự nhiên chia hết cho 7</h2>
+    <script>
+        var i = 0;
+        var sum = 0 ;
+        var c7b0 = 0 ;
+        while( c7b0 <= 30){
+            if(i % 7 == 0){
+                c7b0 ++ ;
+                sum = sum + i ;
+                document.write(i," và ")
+                
+            }
+            i++;
+        }
+        document.write("</br>")
+        document.write("Tổng 30 số =",sum)
+    </script>
+</body>
+</html>
